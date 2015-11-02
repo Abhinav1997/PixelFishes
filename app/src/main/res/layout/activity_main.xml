@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" tools:context=".MainActivity" android:background="@color/blue_a500">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pixel"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:textColor="@color/purple_500"
+        android:singleLine="true"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fish"
+        android:layout_below="@id/title1"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fish_purple"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/title2"
+        android:layout_above="@id/play"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@id/play"
+        android:text="@string/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/achievements"
+        android:text="@string/achievements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle"
+        android:layout_below="@+id/play"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/leaderboard"
+        android:text="@string/leaderboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle"
+        android:layout_below="@+id/achievements"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fish_red"
+        android:layout_margin="10dp"
+        android:layout_below="@id/leaderboard"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fish_green"
+        android:layout_margin="10dp"
+        android:layout_below="@id/leaderboard"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

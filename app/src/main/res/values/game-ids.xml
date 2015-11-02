@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">507630999462</string>
+    <string name="achievement_nerd">CgkIpq-pieMOEAIQBw</string>
+    <string name="achievement_newbie_fisher">CgkIpq-pieMOEAIQAw</string>
+    <string name="achievement_intermediate_fisher">CgkIpq-pieMOEAIQBA</string>
+    <string name="achievement_pro_fisher">CgkIpq-pieMOEAIQBQ</string>
+    <string name="achievement_fishing_god">CgkIpq-pieMOEAIQBg</string>
+    <string name="leaderboard_high_scores">CgkIpq-pieMOEAIQAg</string>
+</resources>

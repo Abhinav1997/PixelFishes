@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" tools:context=".MainActivity" android:background="@color/blue_a500">
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/instruct1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruct1"
+        android:layout_below="@id/instructions"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/instruct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruct2"
+        android:layout_below="@id/instruct1"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/instruct3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruct3"
+        android:layout_below="@id/instruct2"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/gluck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gluck"
+        android:layout_below="@id/instruct3"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/read"
+        android:text="@string/read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/rectangle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

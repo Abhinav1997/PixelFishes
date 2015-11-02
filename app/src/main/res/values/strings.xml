@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Pixel Fishes</string>
+
+    <string name="pixel">Pixel</string>
+    <string name="fish">Fishes</string>
+
+    <string name="play">\u0020\u0020PLAY\u0020\u0020</string>
+    <string name="instructions">\u0020\u0020INSTRUCTIONS\u0020\u0020</string>
+    <string name="instructions1">INSTRUCTION</string>
+    <string name="about">\u0020\u0020ABOUT\u0020\u0020</string>
+    <string name="achievements">\u0020\u0020ACHIEVEMENTS\u0020\u0020</string>
+    <string name="leaderboard">\u0020\u0020LEADERBOARD\u0020\u0020</string>
+
+    <string name="round">ROUND\u0020</string>
+    <string name="highscore">HIGHSCORE\u0020</string>
+
+    <string name="gameover">GAME OVER!</string>
+
+    <string name="before">You touched the fish before music ended</string>
+    <string name="after">You touched the fish too late</string>
+    <string name="wrong">You touched the wrong fish</string>
+
+    <string name="next">NEXT</string>
+    <string name="retry">RETRY</string>
+    <string name="exit">EXIT</string>
+
+    <string name="congrats">Congrats!</string>
+    <string name="game">You beat the game</string>
+
+    <string name="read">READ</string>
+    <string name="instruct1">The game is simple. When you start, you will hear a sound. As soon as the sound stops, you will have to press the fish that turns golden.</string>
+    <string name="instruct2">With each increasing level, you will have to press faster. There are a total of 10 levels to beat.</string>
+    <string name="instruct3">You will get 3 lives to beat 10 levels.</string>
+    <string name="gluck">Too easy? Good luck!</string>
+
+    <string name="developer">Developed by :</string>
+    <string name="colon">:\u0020</string>
+    <string name="name">Abhinav Jhanwar</string>
+    <string name="rate">\u0020\u0020RATE APP\u0020\u0020</string>
+    <string name="website">\u0020\u0020WEBSITE\u0020\u0020</string>
+</resources>

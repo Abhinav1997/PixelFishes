@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/blue_a500" android:padding="20dp">
+
+    <TextView
+        android:id="@+id/round"
+        android:text="@string/round"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/roundno"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/round"
+        android:layout_toRightOf="@id/round" />
+
+    <ImageView
+        android:id="@+id/life1"
+        android:src="@drawable/heart_red"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/life2"
+        android:src="@drawable/heart_red"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toLeftOf="@+id/life1"
+        android:layout_toStartOf="@+id/life1" />
+
+    <ImageView
+        android:id="@+id/life3"
+        android:src="@drawable/heart_red"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toLeftOf="@+id/life2"
+        android:layout_toStartOf="@+id/life2" />
+
+    <ImageView
+        android:id="@+id/fish1"
+        android:src="@drawable/fish_purple"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/fish2"
+        android:src="@drawable/fish_purple"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignTop="@+id/fish1"
+        android:layout_toRightOf="@+id/fish1"
+        android:layout_toEndOf="@+id/fish1"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:id="@+id/fish3"
+        android:src="@drawable/fish_purple"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignTop="@+id/fish1"
+        android:layout_toLeftOf="@+id/fish1"
+        android:layout_toStartOf="@+id/fish1"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/gameover"
+        android:textColor="@color/white"
+        android:text="@string/gameover"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/error"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/fish1"
+        android:layout_above="@+id/next"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/error2"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/gameover"
+        android:layout_above="@+id/next"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/colon"
+        android:text="@string/colon"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/error2"
+        android:layout_above="@+id/next"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/highscore"
+        android:text="@string/highscore"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/error2"
+        android:layout_above="@+id/next"
+        android:layout_toLeftOf="@id/colon"
+        android:layout_toStartOf="@id/colon"/>
+
+    <TextView
+        android:id="@+id/highscoreno"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/error2"
+        android:layout_above="@+id/next"
+        android:layout_toRightOf="@id/colon"
+        android:layout_toEndOf="@id/colon"/>
+
+    <Button
+        android:id="@+id/next"
+        android:text="@string/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rectangle"/>
+
+    <Button
+        android:id="@+id/retry"
+        android:text="@string/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rectangle"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:text="@string/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rectangle"/>
+
+    <TextView
+        android:id="@+id/scoreno"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>
